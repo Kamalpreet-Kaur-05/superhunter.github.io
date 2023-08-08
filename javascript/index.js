@@ -33,7 +33,7 @@ fetchData()
       let div = document.createElement("div");
       div.classList.add("character-cards");
       div.setAttribute("id", id);
-      let path = `../pages/characterdetails.html#${id}`;
+      let path = `../superhunter.github.io/pages/characterdetails.html#${id}`;
   
       div.innerHTML = `
         <img class="poster" src=${thumbnail.path}.jpg alt="">
@@ -81,11 +81,11 @@ searchBtn.addEventListener("click", () => {
       let h2 = document.createElement("h2");
       h2.innerText = "search results :";
       searchResult.appendChild(h2);
-      // create a chracter
+      // create a character
       let div = document.createElement("div");
       div.classList.add("character-cards");
       div.setAttribute("id", id);
-      let path = `../pages/characterdetails.html#${id}`;
+      let path = `../superhunter.github.io/pages/characterdetails.html#${id}`;
       
       div.innerHTML = `
         <img class="poster" src=${thumbnail.path}.jpg alt="">
