@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Superhero-hunter</title>
+
+    <!-- style for web home page -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar for web page -->
+    <nav>
+      <ul>
+        <li class="icon"><a href="#">Superhero Hunter</a></li>
+        <li><a href="./pages/favorite.html">Favorite</a></li>
+      </ul>
+    </nav>
+
+    <!-- search bar to search Marvel character-->
+    <section >
+      <div class="search-bar">
+        <input type="text" placeholder="Search Your SuperHero's..." id="searchBox"/>
+        <input type="button" value="Search" id="searchBtn"/>
+      </div>
+    </section>
+
+    <!-- search output -->
+    <section>
+      <div id="searchResult">
+        
+      </div>
+    </section>
+
+    <!-- showa diffrebt chracters-->
+    <section>
+      <h2>Characters :</h2>
+      <div class="characters" id="charactersContainer">
+        <h2>Loading...</h2>
+      </div>
+    </section>
+
+    <!-- javascript files -->
+    <script src="./javascript/index.js"></script>
+    <script src="./javascript/favorite.js"></script>
+  </body>
+</html>
